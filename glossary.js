@@ -31,7 +31,7 @@ const language = urlParams.get('language') || defaultLanguage;
 document.getElementById("glossary-wrapper").innerHTML = glossary
     .sort((a, b) => a.term[language] < b.term[language])
     .map(item => `
-        <dd>${item.term[language]}</dd>
-        <dt>${item.description[language]}</dt>
+        <dt>${item.term[language]}</dt>
+        <dd>${item.description[language]}</dd>
     `)
     .join("");

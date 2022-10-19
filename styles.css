@@ -1,0 +1,13 @@
+body > header > nav {
+    justify-content: flex-end;
+}
+
+body > header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+dt {
+    font-weight: bold;
+}
