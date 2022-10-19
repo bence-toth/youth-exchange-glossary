@@ -11,6 +11,17 @@ const glossary = [
     }
 ]
 
+const languages = [
+    {name: "English", code: "en"},
+    {name: "Portuguese", code: "pt"}
+]
+
+document.getElementById("language-switcher").innerHTML = languages.map(language => `
+    <li>
+        <a href="/?language=${language.code}">${language.name}</a>
+    </li>
+`)
+
 const language = "en"
 
 document.getElementById("glossary-wrapper").innerHTML = glossary
