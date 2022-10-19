@@ -13,7 +13,7 @@ const glossary = [
 
 const language = "en"
 
-document.getElementById("glossary").innerHTML = glossary
+document.getElementById("glossary-wrapper").innerHTML = glossary
     .sort((a, b) => a.term[language] < b.term[language])
     .map(item => `
         <dd>${item.term[language]}</dd>
