@@ -272,7 +272,7 @@ const glossary = [
   {
     term: { en: "Two-spirited" },
     description: {
-      en: "Two-spirit” refers to a person who identifies as having both a masculine and a feminine spirit, and is used by some Indigenous people to describe their sexual, gender and/or spiritual identity.",
+      en: "Two-spirited refers to a person who identifies as having both a masculine and a feminine spirit, and is used by some Indigenous people to describe their sexual, gender and/or spiritual identity.",
     },
   },
   {
